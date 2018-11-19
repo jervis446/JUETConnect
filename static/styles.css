@@ -1,0 +1,22 @@
+body {
+	font-family: 'Scope One', serif;
+}
+
+#head {
+	font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+a {
+	color: #1F4788;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px){
+	.calendar-wrapper{
+		overflow-x: scroll;
+		padding: 0px !important;
+	}
+}
